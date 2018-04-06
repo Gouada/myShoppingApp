@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dp"
+    android:background="#FEF0D2"
+    tools:context="com.example.gouadadopavogui.myshoppingapp.ui.ContactListFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/halfGrid"
+        android:paddingBottom="@dimen/halfGrid"
+        android:paddingLeft="@dimen/fullGrid"
+        android:paddingRight="@dimen/fullGrid"
+        android:background="#FEF0D2"
+        >
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+    </ListView>
+    </LinearLayout>
+
+
+</FrameLayout>

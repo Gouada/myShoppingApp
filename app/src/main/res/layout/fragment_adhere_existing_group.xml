@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gouadadopavogui.myshoppingapp.ui.AdhereExistingGroup">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/halfGrid"
+        android:paddingBottom="@dimen/halfGrid"
+        android:paddingLeft="@dimen/fullGrid"
+        android:paddingRight="@dimen/fullGrid"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/error_messages_tv"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/EDIT_TX_GROUP_OWNER_NUMBER"
+            android:inputType="textPersonName|textCapSentences|textNoSuggestions"
+            android:ems="15"
+            android:id="@+id/group_owner_number_id"
+            />
+        <!-- android:maxLength="12" -->
+
+<!--             android:inputType="phone" -->
+        <!--
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="99dp"
+            android:src="@drawable/account_plus"
+            android:tint="@color/btnColor"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="5dp"
+            android:id="@+id/imageButton_Add_contact" />
+        -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+            </ListView>
+
+        </LinearLayout>
+<!--
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/EDIT_TX_CONFIRM_GROUP_OWNER_NUMBER"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/confirm_group_owner_number_id"
+            android:maxLength="12"
+            />
+-->
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName|textCapSentences|textNoSuggestions"
+            android:hint="@string/EDIT_TXT_YOUR_NAME"
+            android:ems="15"
+            android:layout_marginTop="15dp"
+            android:id="@+id/adherent_user_name_id"
+            android:layout_marginBottom="10dp"
+             />
+        <!-- android:maxLength="12" -->
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/EDIT_TXT_YOUR_PHONE_NUMBER"
+            android:inputType="phone"
+            android:ems="15"
+            android:layout_marginTop="15dp"
+            android:id="@+id/adherent_user_phone_number_id"
+            android:layout_marginBottom="10dp"
+            />
+        <!-- android:maxLength="12" -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ListView
+                android:id="@+id/list_viewadherent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+            </ListView>
+
+        </LinearLayout>
+
+
+        <Button
+            android:text="@string/BTN_ADHERE_THIS_GROUP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adhere_to_group_button"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dp"
+    android:background="#FEF0D2"
+    tools:context=".ui.CartFragment">
+
+    <!--
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+    -->
+    <ExpandableListView
+        android:id="@+id/myExpandableCartProdctListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ExpandableListView>
+ <!--   <Button
+        android:id="@+id/publish_currentCart"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Senden"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/productNmae_edit"
+        android:layout_gravity="end|bottom"
+        />
+-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/publish_currentCart_floating_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="16dp"
+        android:src="@drawable/cart"
+        android:tint="@color/myPurple"
+        app:backgroundTint="@color/btnColor"
+        android:background="@android:color/transparent"
+        />
+    <!--        android:background="@android:color/transparent" -->
+
+</FrameLayout>

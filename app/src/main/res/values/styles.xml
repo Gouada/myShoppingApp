@@ -1,0 +1,36 @@
+<resources>
+
+    <color name="btnColor">#D9A86E</color>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+-->
+        <item name="colorPrimary">@color/btnColor</item>
+        <item name="colorPrimaryDark">@color/btnColor</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/ButtonsColor</item>
+        <item name="android:editTextStyle">@style/editTextbckgrd</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ButtonsColor" parent="android:Widget.Material.Button">
+        <item name="android:background">@color/btnColor</item>
+    </style>
+
+    <style name="editTextbckgrd" parent="android:Widget.Material.EditText">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+</resources>

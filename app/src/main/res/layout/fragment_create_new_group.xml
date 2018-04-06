@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gouadadopavogui.myshoppingapp.ui.CreateNewGroup">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:paddingTop="@dimen/halfGrid"
+        android:paddingBottom="@dimen/halfGrid"
+        android:paddingLeft="@dimen/fullGrid"
+        android:paddingRight="@dimen/fullGrid"
+        android:gravity="left">
+
+        <!--android:layout_gravity="center"> -->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shopping_group_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textCapSentences"
+        android:hint="@string/GROUP_NAME"
+        android:gravity="left"
+        android:ems="15"
+        />
+<!--         android:layout_gravity="center_vertical|center_horizontal" -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textCapSentences"
+        android:hint="@string/EDIT_TXT_YOUR_NAME"
+        android:textColor="@android:color/black"
+        android:gravity="left"
+        android:maxLength="30"
+        android:ems="15"
+        />
+<!--         android:layout_gravity="center_vertical|center_horizontal"  -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_phone_number"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textCapSentences"
+        android:hint="@string/EDIT_TXT_YOUR_PHONE_NUMBER"
+        android:textColor="@android:color/black"
+        android:ems="15"
+        />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm_user_phone_number"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="textCapSentences"
+            android:hint="@string/EDIT_TXT_CONFIRM_YOUR_PHONE_NUMBER"
+            android:textColor="@android:color/black"
+            android:ems="15"
+            />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_shopping_group_name"
+        android:text="@string/SAVE"
+        android:layout_gravity="center"/>
+</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mein Einkaufskorb</string>
+    <string name="title_activity_my_shopping_cart">Mein Einkaufskorb</string>
+    <string name="action_settings">Einstellungen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_message">\"Willkommen! du startest die App zum ersten mal. diese App ist ein virtueller Einkaufskorb oder Einkaufzettel. Du kannst nun eine neue Shopping-Gruppe anlegen oder eine bestehenden Gruppe beitreten. \" Die Mitglieder einer Shopping-Gruppe werden per Push-Nachricht über alle Änderungen in Ihrem einkaufskorb informiert. Diese App ist ideal für wöchentliche Lebensmittelseinkäufe eines Paares geeignet</string>
+    <string name="NEW_CART_CREATED">" Ein neuer Einkaufskorb wurde angelegt"</string>
+    <string name="COULD_NOT_CREATE_A_NEW_CART">Der Einkaufskorb konnte nicht angelegt werden, bitte versuch es später nochmal\"</string>
+    <string name="CURRENT_CART_LOADED">" Der aktuelle Einkaufskorb wurde geladen"</string>
+    <string name="COULD_NOT_GET_THE_CURRENT_CART">" Der aktuelle Einkaufskorb konnte nicht geladen werden"</string>
+    <string name="CHANGES_COULD_NOT_BE_SAVED_IN_BACKEND">deine Änderungen wurden nicht gespeichert, weil das Hintergurndsystem temporär nicht erreichbar ist, bitte versuch es später nochmal\"</string>
+    <string name="CART_ARCHIEVED">dein Einkaufskorb wurde archiviert</string>
+    <string name="CART_COULD_NOT_BE_ARCHIEVED">dein Einkaufskorb konnte nicht archiviert werden, weil das Hintergurndsystem temporär nicht erreichbar ist, bitte versuch es später nochmal</string>
+    <string name="PRODUCT_ADDED_TO_CART">" das Produkt wurde in den Einkaufskorb abgelegt..."</string>
+    <string name="ENTER_PRODUCT_AMOUNT"> gib die Stückzahl an...</string>
+    <string name="DELETED">" wurde gelöscht..."</string>
+    <string name="PRODUCT_ALREADY_EXISTS_IN_CART">" dieses Produkt ist bereits im Einkaufskorb..."</string>
+    <string name="PRODUCT_LIST">Produktliste</string>
+    <string name="CART_PRODUCT_LIST">Einkaufsliste</string>
+    <string name="ADMIN">Admin</string>
+    <string name="EMPTY_FIELD">gib den Produktnamen ein</string>
+    <string name="CHANGES_SAVED_IN_BACKEND_TEXT">deine Änderungen wurden erfolgreich gespeichert</string>
+    <string name="CHANGES_COULD_NOT_BE_SAVED_IN_BACKEND_TEXT">deine Änderungen konnten nicht gespeichert werden, weil das Hintergurndsystem temporär nicht erreichbar ist, bitte versuch es später nochmal \"</string>
+    <string name="SAVED">" wurde gespeichert ..."</string>
+    <string name="PRODUCT_ALREADY_EXISTS">das Produkt existiert bereits</string>
+    <string name="EMPTY_SPINNER"> wähle einen Produkttype</string>
+
+    <!--   Product types section start -->
+    <string name="DEFAULT_TYPE">" wähle ein produkttype "</string>
+
+    <string name="MILK_PRODUCTS">Milchprodukte</string>
+    <string name="BREAKFAST_PRODUCTS">Frühstückprodukte</string>
+    <string name="REFRIGERATOR_PRODUCTS">Tiefkühlprodukte</string>
+    <string name="OBST_PRODUCTS">Obsts</string>
+    <string name="FRUIT_PRODUCTS">Gemüse</string>
+    <string name="MEAT_PRODUCTS">Fleishprodukte</string>
+    <string name="DRINKS_PRODUCTS">Getränke</string>
+    <string name="SWEETY_PRODUCTS">Süßwaren</string>
+    <string name="TOILET_PRODUCTS">Drogerie</string>
+    <string name="BABY_PRODUCTS">Babynahrung</string>
+    <string name="OTHERS_PRODUCTS">Andere</string>
+    <!--   Product types section end -->
+
+    <!-- Start shopping done alert start -->
+    <string name="SHOPPING_DONE_MESSAGE">" Herzlichen Glückwunsch!!! du hast deine Einkäufe erledigt, möchtest du nun die aktuelle Liste archivieren?"</string>
+    <string name="POSITIVE_BUTTON"> Ja</string>
+    <string name="NEGATIVE_BUTTON"> Nein</string>
+    <string name="BTN_CREATE_NEW_GROUP">Neue Gruppe anlegen</string>
+    <string name="BTN_ADHERE_EXISTING_GROUP">bestehende Gruppe beitreten</string>
+    <string name="EDIT_TX_GROUP_OWNER_NUMBER">Gruppeninhaber\'s nr.</string>
+    <string name="EDIT_TX_CONFIRM_GROUP_OWNER_NUMBER">Nummer bestätigen</string>
+    <string name="EDIT_TXT_YOUR_NAME">dein Name</string>
+    <string name="EDIT_TXT_YOUR_PHONE_NUMBER">deine tel. Nummer.</string>
+    <string name="BTN_ADHERE_THIS_GROUP">Gruppe beitreten</string>
+    <string name="GROUP_NAME">Name der Shopping-Gruppe</string>
+    <string name="SAVE">Speichern</string>
+    <string name="EDIT_TXT_CONFIRM_YOUR_PHONE_NUMBER">deine Nummer bestätigen</string>
+    <string name="add_new_product">+Produkt hinzufügen</string>
+    <string name="NO_CONNECTION_MESSAGE">keine Verbindung. die Funktionalitäten stehen nur begrenzt zur Verfügung</string>
+    <string name="NO_CONNECTION_MESSAGE_IN_ACTION">keine Verbindung die Action wurde nicht erfolgreich durchgeführt</string>
+    <string name="title_activity_user_management">User_managementActivity</string>
+    <string name="CHECK_GROUP_OWNER_NUMBER">prüfe die Nummer des Gruppeninhabers</string>
+    <string name="FILL_IN_ALL_FIELD">fülle alle Felder aus</string>
+    <string name="TO_LONG_NUMBER">" eine Tel. Nr. ist zu lang, gib 12-Stellige Nummern ein"</string>
+    <string name="TO_SHORT_NUMBER">Tel. Nr zu kurz gib 12-stellige Nummer ein</string>
+    <string name="USER_NOT_EXISTS">User existiert nicht</string>
+    <string name="BACKEND_NOT_AVAILABLE_MESSAGE">Das Backend System ist momentan nicht erreichbar, aus diesem Grund stehen einige Funktionalitäten der App nicht zur Verfügung</string>
+    <string name="CART_NOT_CREATED">der neue Einkaufskorb wurde nicht angelegt, weil das Hintergurndsystem temporär nicht erreichbar ist, bitte versuch es später nochmal</string>
+    <string name="CART_NOT_LOADED">Der aktuelle Einkaufskorb konnte nicht geladen werden, weil das Hintergurndsystem temporär nicht erreichbar ist, bitte versuch es später nochmal. Deine Änderungen werden nur lokal, auf deinem Gerät gespeichert.</string>
+    <string name="CART_NOT_SAVED">Die Änderungen wurden nicht im Backend gespeichert, und stehen den anderen Grouppenmitglieder nicht zur Verfügung</string>
+    <string name="cart_not_archived">Der Einkaufskorb wurde nicht archiviert, das Hintergrundsystem is nicht erreichbar</string>
+    <string name="GROUP_NOT_OADED">Die Informationen über die Shoppinggruppe wurde nicht geladen, weil das Hintergurndsystem temporär nicht erreichbar ist, bitte versuch es später nochmal</string>
+    <string name="FEED_BACK_FIELD_EMPTY_ERROR">gib dein Feedback ein</string>
+    <string name="FEEDBACK_RECIPIENT_MAIL_ADRESS">gouada1@yahoo.fr</string>
+    <string name="FEEDBACK_TITLE">Titel</string>
+    <string name="SEND_FEED_BACK_BUTTON">sende</string>
+    <string name="group_not_created">Die Shoppinggrupe wurde nicht angelegt, das Hintergrundsystem is nicht erreichbar</string>
+    <string name="NO_MAIL_CLIENT_FOUND_ON_DEVICE">auf deinen Gerät wurde keine Mail Client zum Versenden deines Feedbacks gefunden, bitte installiere eine Mail App: Gmail, yahoo etc...</string>
+    <string name="NUMBER_NOT_CORRECTLY_CONFIRMED_ERROR">die eingegebene Nummern stimmen nicht übereins</string>
+    <string name="CHANGES_SAVED_IN_BACKEND">Änderungen wurden gespeichert</string>
+    <string name="GIVEN_OWNER_NOT_EXISTS">"Die angegebene Nummer vom Grouppeninhaber existiert nicht versuch es mit und ohne Landesvorwahl "</string>
+    <string name="IN">in</string>
+    <!-- Start shopping done alert start -->
+</resources>

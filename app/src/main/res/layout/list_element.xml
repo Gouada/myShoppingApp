@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:paddingTop="@dimen/halfGrid"
+    android:paddingBottom="@dimen/halfGrid"
+    android:paddingLeft="@dimen/fullGrid"
+    android:paddingRight="@dimen/fullGrid">
+    <!--android:stretchColumns="*"> -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/btnColor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+    <Button
+        android:id="@+id/productAmountL"
+        android:layout_width="15dp"
+        android:layout_height="25sp"
+        android:text="1"
+        android:inputType="number"
+        android:layout_marginRight="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/btnColor"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/addImgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cart_s"
+        android:tint="@color/myPurple"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="1dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+    <ImageButton
+        android:id="@+id/delImgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close_circle_s"
+        android:tint="@color/btnColor"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="1dp"
+        />
+    </LinearLayout>
+    <!-- minus_circle_s
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:text="add"/>
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            />
+        -->
+    <!--
+    <Button
+        android:id="@+id/delButton"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text="Del"/>
+-->
+</LinearLayout>

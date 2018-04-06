@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gouadadopavogui.myshoppingapp.ui.AdminFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName|textCapSentences|textNoSuggestions"
+        android:hint="Username"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:id="@+id/user_name_edit_text"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="tel. nummer."
+        android:inputType="phone"
+        android:background="@android:color/holo_red_dark"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:id="@+id/user_phone_number_edit_text"
+        android:layout_marginBottom="10dp" />
+
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:ems="10"
+        android:id="@+id/user_email_adress_edit_text"
+            />
+
+        <Button
+            android:text="Add new group member"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_new_user_to_group_button_id"
+            android:layout_marginBottom="10dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
