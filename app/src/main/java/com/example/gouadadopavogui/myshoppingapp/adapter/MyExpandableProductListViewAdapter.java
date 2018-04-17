@@ -235,7 +235,9 @@ public class MyExpandableProductListViewAdapter extends BaseExpandableListAdapte
 
         //if (holder.product.getProductAmount() > 0)
         holder.productAmount.setText(String.valueOf(holder.product.getProductAmount()));
+        holder.productAmount.setContentDescription(holder.product.getProductName() + " amount");
         holder.productName.setText(holder.product.getProductName());
+        holder.productName.setContentDescription(holder.product.getProductName());
         //holder.productId.setText(holder.product.getProductId());
 
         if (isProductInCart(holder.product)) {
@@ -251,6 +253,8 @@ public class MyExpandableProductListViewAdapter extends BaseExpandableListAdapte
             holder.addButton.setImageDrawable(context.getResources().getDrawable(R.drawable.cart_m));
             holder.addButton.setClickable(true);
         }
+        holder.addButton.setContentDescription(holder.product.getProductName() + " add button");
+        holder.delButton.setContentDescription(holder.product.getProductName() + " del button");
 
         final int chdPos = childPosition;
         final int gpPos = groupPosition;
